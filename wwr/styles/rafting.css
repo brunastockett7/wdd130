@@ -1,0 +1,107 @@
+/* Root color variables */
+:root {
+    --primary-color: #004e92;
+    --secondary-color: #000428;
+    --accent1-color: #1fab89;
+    --accent2-color: #62d2a2;
+  }
+  
+  /* General styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--accent1-color);
+  }
+  
+  header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header img {
+    height: 60px;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    width: 100%;
+    display: block;
+  }
+  
+  .hero h1,
+  .hero article {
+    position: absolute;
+    color: white;
+  }
+  
+  .hero h1 {
+    top: 2rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1rem;
+  }
+  
+  .hero article {
+    right: 1rem;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    max-width: 300px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 1rem;
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Section images */
+  section img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer a img {
+    width: 30px;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
