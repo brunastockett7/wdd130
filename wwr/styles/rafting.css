@@ -287,3 +287,131 @@ section figure figcaption {
   margin-top: 0.5rem;
   font-weight: bold;
 }
+/* Home Page Hero */
+.hero {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.hero img {
+  width: 100%;
+  display: block;
+}
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Call‑To‑Action */
+.cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.cta-button {
+  display: inline-block;
+  background-color: var(--accent1-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.cta-button:hover {
+  background-color: var(--accent2-color);
+}
+
+/* Home Grid Content */
+.grid-info {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.grid-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.grid-info .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+}
+.grid-info .grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.grid-info .grid p {
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* Trips Gallery */
+.trip-gallery {
+  padding: 2rem;
+  text-align: center;
+}
+.trip-gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.trip {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.trip img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.trip h3 {
+  margin-top: 0.75rem;
+  color: var(--accent1-color);
+}
+.trip p {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* Trip Summary Table */
+.trip-summary {
+  padding: 2rem;
+  text-align: center;
+}
+.trip-summary table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.trip-summary th,
+.trip-summary td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.trip-summary th {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.trip-summary tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
